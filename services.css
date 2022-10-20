@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    color: #0D1317;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+}
+/* Profile section */
+.profile{
+    display: flex;
+    margin-top: 100px;
+}
+.profileTexts h1{
+    width: 618px;
+}
+.profileTexts p{
+    width: 510px;
+    padding-bottom: 25px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #5B5B5B;
+}
+.profileBtn{
+    background: #F58A07;
+    color: white;
+    border-radius: 27px;
+    padding: 18px 32px;
+}
+
+.imgOrange{
+    background: url(./images/services/Image\ \(1\).png) no-repeat;
+    width: 616px;
+    height: 650px;
+    background-position: 100%;
+    background-size: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+.blend{
+    position: absolute;
+    background: rgba(245, 138, 7, 0.5);
+    width: 30%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+/* Features 1 Section */
+.featuresOne{
+    display: flex;
+    justify-content: space-around;
+}
+
+.featureOneImg{
+    background: url(./images/services/Image\ \(2\).png) no-repeat;
+    width: 550px;
+    height: 620px;
+    background-position: 100%;
+    background-size: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+.featureOneImg .square{
+    position: absolute;
+    width: 95px;
+    height: 97px;
+    background:  rgba(245, 138, 7, 0.7);
+    border-radius: 20px;
+    top: 30%;
+    left: -50px;
+}
+
+.featureOneText{
+    width: 580px;
+    padding: 160px 50px 160px 0;
+}
+.featureOneText p{
+    margin: 20px 0;
+}
+.featureOneText ul{
+    padding-left: 20px;
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+/* Features 2 Section */
+.featuresTwo{
+    display: flex;
+    justify-content: space-around;
+}
+.featureTwoText{
+    width: 580px;
+    padding: 160px 50px 160px 0;
+}
+.featureTwoImg{
+    background: url(./images/services/Image\ \(3\).png) no-repeat;
+    width: 550px;
+    height: 620px;
+    background-position: 100%;
+    background-size: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+.featureTwoImg .square{
+    position: absolute;
+    width: 95px;
+    height: 97px;
+    background:  rgba(245, 138, 7, 0.7);
+    border-radius: 20px;
+    top: 50%;
+    right: -50px;
+}

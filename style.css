@@ -1,3 +1,74 @@
+
+*{
+box-sizing: border-box;
+text-decoration: none;
+}
+body{
+    margin: 0;
+    width: 1933px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+p{
+    font-size: 16px;
+    color: #5B5B5B;
+    font-weight: 500;
+}
+/* Navigation starts */
+
+.header{
+    background: white;
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+header .logo{
+    color: #063255;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+.navbar{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+ul li a{
+    color: #394149;
+}
+.button{
+    border: 1px solid #F58A071A;
+    background: #F58A071A;
+    border-radius: 30px;
+    margin: 25px;
+    padding: 10px;
+    color: #394149;
+}
+.button a{
+    color: orange;
+}
+
+
 /* Profile section starts */
 
 .main{
@@ -9,55 +80,65 @@
     display: flex;
     height: 100%;
 }
-.main .container .profileText {
+.main .container .text {
 align-self: center;
 }
 
 .main .img{
     align-self: end;
 }
-.profileText p{
-    font-size: 18px;
-    color: #5B5B5B;
+
+.text h1{
+    color: #063255;
+    font-size: 64px;
+    line-height: 72px;
+}
+.text p{
+    color: #394149;
+    font-size: 15px;
 }
 
-.profileButtons{
+
+.btns{
     display: flex;
     font-weight: 600;
     font-size: 16px;
 }
-.btnOne{
+.btn1{
     border: 1px solid orange;
     background: orange;
     border-radius: 50px;
     margin: 10px;
     padding: 18px 32px;
+}
+.btn1 a{
     color: white;
 }
-
-.btnTwo:hover{
+.btn2:hover{
     border: 1px solid orange;
     background: orange;
-    color: white;
     border-radius: 30px;
     margin: 10px;
     padding: 18px 32px;
 }
-.btnTwo a:hover{
+.btn2 a:hover{
     color: white;
 }
 
-.btnTwo{
+.btn2{
     border-radius: 30px;
     margin: 10px;
     padding: 18px 32px;
 }
-.profileText .subText{
+.btn2 a {
+    color: #394149;
+}
+.sub{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     color: #39414980;
 }
-.profileLogos{
+.logos{
     display: flex;
     justify-content: space-between;
 }
@@ -65,47 +146,35 @@ align-self: center;
 /* Help section starts */
 
 .help{
-    padding-top: 80px;
-    padding-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 .help h2{
-    width: 735px;
+    width: 50%;
     color: #1D3444;
     font-size: 48px;
-    font-weight: 600;
-    line-height: 56px;
-    color: #1D3444;
     
 }
 .help p{
-    width: 735px;
+    width: 50%;
     font-weight: 500;
     font-size: 16px;
     color: #5B5B5B;
 
 }
-.helpArticles{
-    width: 100%;
-    padding-top: 50px;
+.posts{
     display: flex;
     justify-content: space-between;
 }
-
-.article{
-    width: 399px;
-}
-
-.helpArticles img{
+.posts img{
     border-radius: 20px;
 }
-.helpArticles .head{
+.posts .head{
     font-size: 24px;
-    font-weight: 500;
-    color: #0D1317;
-    line-height: 25.56px;
+    color: black;
 }
-.helpArticles p{
-    width: 100%;
+.posts p{
+    width: 90%;
     color: #5B5B5B;
     font-size: 16px;
 }
@@ -209,34 +278,18 @@ align-self: center;
 
 
 
-/* 5th/Service section starts here */
+/* 5th section starts here */
 
-.behind{
+.service{
+    padding: 40px;
     position: relative;
-    /* background-color: #063255; */
-    padding-top: 15px;
-    margin: auto;
-    max-width: 1300px;
-    width: 100%;
+   
 }
-
-.ribbon{
-    position: absolute;
-    right: 0%;
-    top: 0;
-
-}
-.inside{
-    padding: 48px;
-    border-radius: 20px;
-}
-
-
 
 .service-tabs{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 55%;
 }
 .service-tabs a{
     font-weight: 600;
@@ -252,10 +305,7 @@ align-self: center;
 }
 .service-body{
     display: flex;
-    justify-content: space-between;
-}
-.service-texts{
-    padding-right: 30px;
+
 }
 .service-texts .service-text{
     font-size: 18px;
@@ -283,7 +333,12 @@ align-self: center;
     border-radius: 20px 0 0 20px;
 
 }
+.ribbon{
+    position: absolute;
+    top: 0;
+    right: 0;
 
+}
 
 /* 6th section/CTA section starts here */
 
@@ -340,14 +395,6 @@ align-self: center;
     justify-content: space-between;
     width: 40%;
 }
-.videoImg{
-    position: relative;
-}
-.videoImg .play{
-    position: absolute;
-    left: 20px;
-    bottom: 25px;
-}
 
 .name{
     color: #063255;
@@ -368,6 +415,7 @@ align-self: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 
 .blogs{
     padding-top: 30px;
@@ -390,5 +438,12 @@ align-self: center;
 .blog-text{
     padding: 30px;
 }
+
+footer{
+    background: #063255;
+    width: 100%;
+    height: 40vh;
+}
+
 
 
