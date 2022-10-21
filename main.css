@@ -166,6 +166,7 @@ align-self: center;
 .about-text{
     padding: 0px;
     margin-bottom: 100px;
+    width: 50%;
     
 }
 .first{
@@ -187,21 +188,22 @@ align-self: center;
     font-size: 36px;
     font-weight: 700;
 }
-.about-img{
+.aboutImg{
     position: relative;
-}
-.about-img img{
+    background: url(./images/about-image.png) no-repeat;
+    width: 637px;
+    height: 667px;
+    background-position: 100%;
+    background-size: 100%;
+    position: relative;
     border-radius: 20px;
 }
-
 .test{
-    width: 20%;
-    height: 85.4%;
-    background: rgba(209, 109, 15, 0.8);
+    width: 22%;
+    height: 100%;
+    background: #F58A07;
     position: absolute;
-    background-blend-mode: multiply;
-    /* height: 667px; */
-    top: 0;
+    mix-blend-mode: multiply;
     border-radius: 20px 0 0 20px;
 }
 
@@ -256,6 +258,7 @@ align-self: center;
 }
 .service-texts{
     padding-right: 30px;
+    width: 50%;
 }
 .service-texts .service-text{
     font-size: 18px;
@@ -269,18 +272,27 @@ align-self: center;
 }
 
 .service-img{
+    background: url(./images/team.png) no-repeat;
+    width: 472px;
+    height: 466px;
+    background-position: 100%;
+    background-size: 100%;
     position: relative;
-    padding-top: 60px;
+    border-radius: 20px;
+   
 }
 
 
 .test2{
-    width: 20%;
+    /* width: 20%; */
     background: rgba(209, 109, 15, 0.8);
-    height: 466px;
     position: absolute;
-    bottom: 8px;
+    background: #F58A07;
+    width: 25%;
+    height: 100%;
     border-radius: 20px 0 0 20px;
+    mix-blend-mode: multiply;
+  
 
 }
 
@@ -297,7 +309,15 @@ align-self: center;
 }
 
 .cta-left{
-    width: 963px;
+    width: 50%;
+}
+.ctaImg{
+    background: url(./images/experience-image.png) no-repeat;
+    width: 100%;
+    height: 518px;
+    /* background-position: 100%; */
+    background-size: cover;
+    object-fit: cover;
 }
 
 .cta-right{

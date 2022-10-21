@@ -117,7 +117,7 @@ footer .top ul li{
 .top .subsCribe .subButton {
     background: #F58A07;
     border-radius: 30px;
-    padding: 15px 32px;
+    padding:  18px 22px;
     width: 40%;
     margin-top: 10px;
 
@@ -158,4 +158,44 @@ footer .bottom{
 
 .blog-text{
     padding: 30px;
+}
+/* 7th section/ video section starts here */
+
+.video {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.video-text{
+    padding-top: 100px;
+    padding-right: 60px;
+
+}
+
+.video-person{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 40%;
+}
+.videoImg{
+    position: relative;
+}
+.videoImg .play{
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+}
+
+.name{
+    color: #063255;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41px;
+}
+.job{
+    color: #F58A07;
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 500;
 }

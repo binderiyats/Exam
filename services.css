@@ -6,6 +6,15 @@
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
+
+}
+.feature{
+    display: flex;
+    justify-content: space-around;
+}
+.featureText{
+    width: 580px;
+    padding: 160px 50px 160px 0;
 }
 /* Profile section */
 .profile{
@@ -31,8 +40,8 @@
 
 .imgOrange{
     background: url(./images/services/Image\ \(1\).png) no-repeat;
-    width: 616px;
-    height: 650px;
+    width: 638px;
+    height: 671px;
     background-position: 100%;
     background-size: 100%;
     position: relative;
@@ -40,18 +49,14 @@
 }
 .blend{
     position: absolute;
-    background: rgba(245, 138, 7, 0.5);
+    background: #F58A07;
     width: 30%;
     height: 100%;
     border-radius: 20px 0 0 20px;
+    mix-blend-mode: multiply;
 }
 
 /* Features 1 Section */
-.featuresOne{
-    display: flex;
-    justify-content: space-around;
-}
-
 .featureOneImg{
     background: url(./images/services/Image\ \(2\).png) no-repeat;
     width: 550px;
@@ -65,12 +70,12 @@
     position: absolute;
     width: 95px;
     height: 97px;
-    background:  rgba(245, 138, 7, 0.7);
+    background: #F58A07;
+    mix-blend-mode: multiply;
     border-radius: 20px;
     top: 30%;
     left: -50px;
 }
-
 .featureOneText{
     width: 580px;
     padding: 160px 50px 160px 0;
@@ -78,7 +83,7 @@
 .featureOneText p{
     margin: 20px 0;
 }
-.featureOneText ul{
+ul{
     padding-left: 20px;
     color: #5B5B5B;
     font-weight: 500;
@@ -86,14 +91,6 @@
     line-height: 28px;
 }
 /* Features 2 Section */
-.featuresTwo{
-    display: flex;
-    justify-content: space-around;
-}
-.featureTwoText{
-    width: 580px;
-    padding: 160px 50px 160px 0;
-}
 .featureTwoImg{
     background: url(./images/services/Image\ \(3\).png) no-repeat;
     width: 550px;
@@ -107,8 +104,74 @@
     position: absolute;
     width: 95px;
     height: 97px;
-    background:  rgba(245, 138, 7, 0.7);
+    background:  #F58A07;
+    mix-blend-mode: multiply;
     border-radius: 20px;
     top: 50%;
     right: -50px;
+}
+/* Features 3 section */
+.featureText{
+    width: 580px;
+    padding: 160px 50px 160px 0;
+}
+.featureThreeImg{
+    background: url(./images/services/Image.png) no-repeat;
+    width: 550px;
+    height: 620px;
+    background-position: 100%;
+    background-size: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+.featureThreeImg .square{
+    position: absolute;
+    width: 95px;
+    height: 97px;
+    background:  #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    top: 40%;
+    left: -50px;
+}
+/* Features 4 section */
+
+.featureFourImg{
+    background: url(./images/services/Image4.png) no-repeat;
+    width: 550px;
+    height: 620px;
+    background-position: 100%;
+    background-size: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+.featureFourImg .square{
+    position: absolute;
+    width: 95px;
+    height: 97px;
+    background:  #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    top: 60%;
+    right: -50px;
+}
+/* Feature 5 section */
+.featureFiveImg{
+    background: url(./images/services/Image5.png) no-repeat;
+    width: 550px;
+    height: 620px;
+    background-position: 100%;
+    background-size: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+.featureFiveImg .square{
+    position: absolute;
+    width: 95px;
+    height: 97px;
+    background:  #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+    top: 60%;
+    left: -50px;
 }
