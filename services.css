@@ -6,23 +6,26 @@
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
-
 }
 .feature{
     display: flex;
     justify-content: space-around;
 }
 .featureText{
-    width: 580px;
-    padding: 160px 50px 160px 0;
+    width: 100%;
+    padding: 150px 50px 0 0;
 }
 /* Profile section */
 .profile{
     display: flex;
+    justify-content: space-between;
     margin-top: 100px;
 }
+.profileTexts{
+    width: 50%;
+}
 .profileTexts h1{
-    width: 618px;
+    width: 600px;
 }
 .profileTexts p{
     width: 510px;
@@ -59,7 +62,7 @@
 /* Features 1 Section */
 .featureOneImg{
     background: url(./images/services/Image\ \(2\).png) no-repeat;
-    width: 550px;
+    width: 100%;
     height: 620px;
     background-position: 100%;
     background-size: 100%;
@@ -77,8 +80,8 @@
     left: -50px;
 }
 .featureOneText{
-    width: 580px;
-    padding: 160px 50px 160px 0;
+    width: 100%;
+    padding: 150px 50px 0 80px;
 }
 .featureOneText p{
     margin: 20px 0;
@@ -93,7 +96,7 @@ ul{
 /* Features 2 Section */
 .featureTwoImg{
     background: url(./images/services/Image\ \(3\).png) no-repeat;
-    width: 550px;
+    width: 100%;
     height: 620px;
     background-position: 100%;
     background-size: 100%;
@@ -110,14 +113,11 @@ ul{
     top: 50%;
     right: -50px;
 }
+
 /* Features 3 section */
-.featureText{
-    width: 580px;
-    padding: 160px 50px 160px 0;
-}
 .featureThreeImg{
     background: url(./images/services/Image.png) no-repeat;
-    width: 550px;
+    width: 100%;
     height: 620px;
     background-position: 100%;
     background-size: 100%;
@@ -138,7 +138,7 @@ ul{
 
 .featureFourImg{
     background: url(./images/services/Image4.png) no-repeat;
-    width: 550px;
+    width: 100%;
     height: 620px;
     background-position: 100%;
     background-size: 100%;
@@ -155,10 +155,15 @@ ul{
     top: 60%;
     right: -50px;
 }
+.featureFourText{
+    width: 580px;
+    padding: 0px;
+    margin: 50px;
+}
 /* Feature 5 section */
 .featureFiveImg{
     background: url(./images/services/Image5.png) no-repeat;
-    width: 550px;
+    width: 100%;
     height: 620px;
     background-position: 100%;
     background-size: 100%;

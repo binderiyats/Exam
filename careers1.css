@@ -1,0 +1,65 @@
+
+.profile{
+    display: flex;
+}
+.profileImg{
+    background: url(./images/careers/Image\ \(4\).png) no-repeat;
+    width: 618px;
+    height: 650px;
+    background-size: 100%;
+    position: relative;
+}
+.profileImg .blend{
+    color: #F58A07;
+    /* mix-blend-mode: multiply; */
+    /* position: absolute; */
+    width: 20px;
+    height: 20px;
+
+}
+.profileTexts .title{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    color: #1D3444;
+}
+.profileTexts{
+    width: 618px;
+}
+.profileTexts p{
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 30px;
+    counter-reset: #5B5B5B;
+}
+
+/* careers section */
+.littleHeader{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #0D1317;
+}
+.position{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #394149;
+}
+.apply{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19.17px;
+    color: #F58A07;
+}
+.applications{
+    display: flex;
+
+}
+.career{
+    background: #C1E4FF4D;
+    margin: 10px;
+    border-radius: 20px;
+    width: 400px;
+    height: 181px;
+}
