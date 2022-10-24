@@ -1,0 +1,84 @@
+
+.discription{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 64px;
+}
+
+.jobs{
+    font-size: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0D1317;
+}
+.jobs p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.careerDetails{
+    padding: 60px;
+    border-radius: 20px;
+    display: flex;
+    background: #C1E4FF4D;
+    justify-content: space-between;
+}
+.detailRight{
+    width: 70%;
+    color: #5b5b5b;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+.detailLeft ul{
+    margin: 0;
+    padding: 0;
+}
+.detailLeft ul li{
+    list-style: none;
+    color: #0D1317;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+.detailLeft .active{
+    color: #F58A07;
+}
+
+.innercareer .title{
+    margin-bottom: 64px;
+}
+
+.apply .top,
+.middle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.apply .top input{
+    width: 48%;
+    border-radius: 30px;
+    padding: 18px 32px;
+    margin: 10px 0;
+}
+.apply .middle input{
+    width: 48%;
+    border-radius: 30px;
+    padding: 18px 32px;
+    margin: 10px 0;
+}
+.apply .bottom input{
+    width: 100%;
+    border-radius: 30px;
+    padding: 18px 32px 167px;
+    margin: 10px 0;
+}
+input{
+    background: #D2DAED2B;
+    border: 1px solid #D2DAED2B;
+}
+.application .profileBtn{
+   width: fit-content;
+}

@@ -158,12 +158,12 @@ footer .top ul li{
 }
 .subsCribe input{
     border-radius: 30px;
-    padding: 18px 118px 17px 32px;
-
+    padding: 18px 32px;
+    width: 340px;
 }
 footer .profileBtn{
-    width: 40%;
-    margin-top: 5px;
+    width: fit-content;
+    margin: 5px 0;
     border-radius: 30px;
 }
 footer .bottom{
