@@ -1,3 +1,6 @@
+.blogs{
+    padding: 120px;
+}
 .profile{
     display: flex;
     justify-content: space-between;
@@ -25,7 +28,7 @@
 }
 
 .proifleImg{
-    background: url(./images/blogs/Image\ \(6\).png) no-repeat;
+    background: url(../images/blogs/Image\ \(6\).png) no-repeat;
     width: 50%;
     height: 493px;
     background-position: 100%;
@@ -46,7 +49,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 64px;
     flex-wrap: wrap;
 }
 
@@ -61,7 +64,9 @@
 .blog img{
     border-radius: 20px 20px 0 0;
 }
-
+.all{
+    padding: 128px 0;
+}
 
 
 

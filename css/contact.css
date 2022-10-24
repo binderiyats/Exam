@@ -1,0 +1,60 @@
+.contact{
+    padding: 92px 0;
+}
+.contactTop{
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+.contactTop .first{
+    width: 48%;
+    color: #1D3444;
+}
+.locationContact{
+    display: flex;
+
+}
+.locationContact ul{
+    width: 50%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #0d1317;
+}
+.locationContact ul li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #5b5b5b;
+
+}
+.contactMiddle{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.map{
+    background: url(../images/inner/Image\ \(9\).png) no-repeat;
+    width: 49%;
+    height: 400px;
+    /* background-position: 100%; */
+    background-size: 100%;
+    border-radius: 30px;
+}
+
+
+input{
+    padding: 18px 32px;
+    display: flex;
+    flex-direction: column;
+    width: 605px;
+    margin-bottom: 16px;
+    border-radius: 27px;
+    border: 0;
+    background: #D2DAED2B;
+    color: #9C9C9C;
+}
+.last{
+    padding: 32px 32px 89px;
+}

@@ -34,7 +34,7 @@
 
 
 .imgOrange{
-    background: url(./images/services/Image\ \(1\).png) no-repeat;
+    background: url(../images/services/Image\ \(1\).png) no-repeat;
     width: 638px;
     height: 650px;
     background-position: 100%;
@@ -53,7 +53,7 @@
 
 /* Features 1 Section */
 .featureOneImg{
-    background: url(./images/services/Image\ \(2\).png) no-repeat;
+    background: url(../images/services/Image\ \(2\).png) no-repeat;
     width: 100%;
     height: 620px;
     background-position: 100%;
@@ -87,7 +87,7 @@ ul{
 }
 /* Features 2 Section */
 .featureTwoImg{
-    background: url(./images/services/Image\ \(3\).png) no-repeat;
+    background: url(../images/services/Image\ \(3\).png) no-repeat;
     width: 100%;
     height: 620px;
     background-position: 100%;
@@ -108,7 +108,7 @@ ul{
 
 /* Features 3 section */
 .featureThreeImg{
-    background: url(./images/services/Image.png) no-repeat;
+    background: url(../images/services/Image.png) no-repeat;
     width: 100%;
     height: 620px;
     background-position: 100%;
@@ -129,7 +129,7 @@ ul{
 /* Features 4 section */
 
 .featureFourImg{
-    background: url(./images/services/Image4.png) no-repeat;
+    background: url(../images/services/Image4.png) no-repeat;
     width: 100%;
     height: 620px;
     background-position: 100%;
@@ -154,7 +154,7 @@ ul{
 }
 /* Feature 5 section */
 .featureFiveImg{
-    background: url(./images/services/Image5.png) no-repeat;
+    background: url(../images/services/Image5.png) no-repeat;
     width: 100%;
     height: 620px;
     background-position: 100%;

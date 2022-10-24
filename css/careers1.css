@@ -2,21 +2,23 @@
 .profile{
     display: flex;
     justify-content: space-between;
+    padding: 90px 0;
 }
 .profileImg{
-    background: url(./images/careers/Image\ \(4\).png) no-repeat;
+    background: url(../images/careers/Image\ \(4\).png) no-repeat;
     width: 618px;
     height: 650px;
     background-size: 100%;
     position: relative;
+    background-position: 100%;
 }
-.profileImg .blend{
+.blended{
     color: #F58A07;
-    /* mix-blend-mode: multiply; */
-    /* position: absolute; */
-    width: 20px;
-    height: 20px;
-
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 200px;
+    height: 650px;
+    border-radius: 0;
 }
 .profileTexts .title{
     font-size: 64px;
@@ -75,4 +77,5 @@
     border-radius: 20px;
     width: 400px;
     height: 181px;
+    padding: 0 32px;
 }
